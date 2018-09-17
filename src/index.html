@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/puzzle.css">
+	<link rel="stylesheet" href="swinalert/sweetalert.css">
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
+	<title>Puzzle</title>
+</head>
+<body>
+	<center>
+<a style="text-decoration: none; font-size: 5em;" href="/">
+<span style="color:#3377CC;">Build</span> <span style="color: #fc4f3f;">Puzzle</span>
+</a>
+	<div class="puzzle">
+		<h4>--Puzzle 8--</h4>
+	</div>
+	<section class="contenedor">
+			<button id="b0" class="btn" onclick="empujar(this.id)"> </button> 
+			<button id="b1" class="btn" onclick="empujar(this.id)">1</button> 
+			<button id="b2" class="btn" onclick="empujar(this.id)">2</button>
+			<button id="b3" class="btn" onclick="empujar(this.id)">3</button> 
+			<button id="b4" class="btn" onclick="empujar(this.id)">4</button> 
+			<button id="b5" class="btn" onclick="empujar(this.id)">5</button>
+			<button id="b6" class="btn" onclick="empujar(this.id)">6</button> 
+			<button id="b7" class="btn" onclick="empujar(this.id)">7</button> 
+			<button id="b8" class="btn" onclick="empujar(this.id)">8</button>
+	</section>
+	<section class="conten">
+		<button class="btn" onclick="desordenar();" style="background: rgb(252, 79, 63); border-radius: 8px; color:white;">Desordenar</button>
+		<button onclick="terminar();" class="btn" style="background: rgb(62, 160, 206); border-radius: 8px; color: white;">Terminar</button>
+	</section>
+	<footer class="Footer">
+		<div class="info">
+			<div class="footer-column-center">
+				<strong>Jasan Hernández - 2018</strong>
+			</div>
+			<div class="footer-menu">
+				<ul class="enlaces">
+					<li><a href="mailto:jasan814@gmail.com" for="email">E-mail </a><span class="icon-email"></span></li>
+					<li><a href="https://github.com/JasanHdz/" target="_blank">GitHub </a><span class="icon-github"></span></li>
+					<li><a href="https://www.instagram.com/jasanhdz/" target="_blank">Instagram </a><span class="icon-insta"></span></li>
+					<li><a href="https://twitter.com/jasan_azael" target="_blank">Twitter </a><span class="icon-twitter"></span></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/puzzle.js"></script>
+	<script type="text/javascript" src="js/datos.js"></script>
+	<script type="text/javascript" src="swinalert/sweetalertmin.jss"></script>
+</body>
+</html>

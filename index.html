@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Registro</title>
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
+  <link rel="stylesheet" href="src/css/puzzle.css">
+  <style>
+  .container-form {
+    height: 600px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    border: 5px solid #e8e8e8;
+  }
+
+  input {
+    /* align-self: center;  */
+    margin: 10px 0;
+    font-size: 20px;
+    width: 390px;
+    height: 29px;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+
+  .submit {
+    background-color: #ff9634;
+    color: white;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 7px;
+    border-color: #ff9634;
+    /* padding: 6px 0; */
+  }
+  .header-signUp {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+  }
+  </style>
+</head>
+<body>
+  <header class="header-signUp">
+      <a style="text-decoration: none; font-size: 5em;" href="/">
+        <span style="color:#3377CC;">Build</span> <span style="color: #fc4f3f;">Puzzle</span>
+        </a>
+  </header>
+  <section class="container-form">
+    <form action="src/index.html" id="form" class="form">
+      <h2>Crea una cuenta nueva</h2>
+      <input type="text" placeholder="Nombre" id="name">
+      <input type="age" placeholder="Edad" id="edad">
+      <input type="date" value="YYYY-MM-DD" id="nacimiento">
+      <input type="email" placeholder="Email" id="email">
+      <input type="tel" name="" id="" placeholder="Telefono" id="movil">
+      <input type="submit" value="Registrarme" class="submit">
+    </form>
+  </section>
+  <footer class="Footer">
+      <div class="info">
+        <div class="footer-column-center">
+          <strong>Jasan Hernández - 2018</strong>
+        </div>
+        <div class="footer-menu">
+          <ul class="enlaces">
+            <li><a href="mailto:jasan814@gmail.com" for="email">E-mail </a><span class="icon-email"></span></li>
+            <li><a href="https://github.com/JasanHdz/" target="_blank">Github </a><span class="icon-github"></span></li>
+            <li><a href="https://www.instagram.com/jasanhdz/" target="_blank">Instagram </a><span class="icon-insta"></span></li>
+            <li><a href="https://twitter.com/jasan_azael" target="_blank">Twitter </a><span class="icon-twitter"></span></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="datos.js"></script>
+</body>
+</html>
