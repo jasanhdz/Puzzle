@@ -174,3 +174,78 @@ body {
 		height: 160px;
 	}
 }
+
+/* Registro */
+.container-form {
+	height: 600px;
+	background-color: aliceblue;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 700px;
+	border: 5px solid #e8e8e8;
+}
+
+input {
+	/* align-self: center;  */
+	margin: 10px 0;
+	font-size: 20px;
+	width: 390px;
+	height: 29px;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+.submit {
+	background-color: #ff9634;
+	color: white;
+	cursor: pointer;
+	height: 40px;
+	border-radius: 7px;
+	border-color: #ff9634;
+	/* padding: 6px 0; */
+}
+.header-signUp {
+	display: flex;
+	background-color: white;
+	justify-content: center;
+}
+
+.title-singin {
+	text-decoration: none; font-size: 5em;
+}
+ @media screen and (max-width:450px) {
+	.form {
+		width: auto;
+	}
+
+	.container-form {
+		height: 500px;
+	}
+	
+	.title-singin {
+		font-size: 4em;
+	}
+
+	input {
+		width: 300px;
+	}
+ }
+ @media screen and (max-width:360px) {
+	.title-singin {
+		font-size: 3em;
+	}
+
+	input {
+		width: 250px;
+	}
+ }
