@@ -77,11 +77,13 @@ body {
 	height: 100px;;
 	cursor: pointer;
 	font-size: 17px;
+	border-radius: 4px;
+	background: white;
 }
 
 .btn.a {
 	height: 50px;
-	width: 110px;
+	width: 120px;
 }
 
 .Portada {
@@ -96,7 +98,7 @@ body {
 	width: auto;
 	height: 100px;
 	border-bottom: 2px solid #FFB400;
-    border-top: 2px solid #FFB400;
+  border-top: 2px solid #FFB400;
 
 }
 
