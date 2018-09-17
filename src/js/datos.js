@@ -9,14 +9,14 @@ function terminar() {
   if(JSON.stringify(array)==JSON.stringify(ganaste) || JSON.stringify(array)==JSON.stringify(ganaste1) ) {
     swal({
       title: 'Ganaste',
-      text: `Felicidades amigo :) ${nombre}`,
+      text: 'Felicidades amigo :)',
       type: 'success'
-    })
+    });
   } else {
     swal({
       title: 'Aún no has ganado',
-      text: "sorry :(",
+      text: 'sorry :(',
       type: 'error'
-    })
+    });
   }
 }
