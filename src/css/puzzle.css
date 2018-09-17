@@ -67,6 +67,7 @@ body {
 	display: grid;
 	grid-template-columns: 100px 100px 100px;
 	grid-template-rows: 100px 100px 100px;
+	grid-gap: 5px 5px;
 	justify-content: center;
 	margin-bottom: 15px;
 }
